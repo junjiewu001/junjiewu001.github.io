@@ -20,13 +20,13 @@ repository               : "jjw-swjtu/jjw-swjtu.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "profile.png"   # 放在 /images/profile.png
+  avatar           : "jjw.png"   # 放在 /images/profile.png
   name             : "Junjie Wu"
   pronouns         : "he/him"
   bio              : "Postdoc  / researcher in Computer Science at Southwest Jiaotong University."
   location         : "Chengdu, China"
   employer         : "Southwest Jiaotong University"
-  uri              : https://jjw-swjtu.github.io
+  uri              : https://rmisgod.github.io/jjw.github.io/
   email            : "jjw@swjtu.edu.cn"   # ✅ 已替换为你的邮箱
 
   # Academic websites
