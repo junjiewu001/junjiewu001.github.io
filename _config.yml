@@ -20,7 +20,7 @@ repository               : "jjw-swjtu/jjw-swjtu.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "jjw.jpg"   # 放在 /images/profile.png
+  avatar           : "/images/jjw.jpg"   # 放在 /images/profile.png
   name             : "Junjie Wu"
   pronouns         : "he/him"
   bio              : "Postdoc  / researcher in Computer Science at Southwest Jiaotong University."
@@ -32,7 +32,7 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=luEfZkQAAAAJ&hl=zh-CN"
   inspire-hep      :
   impactstory      :
   orcid            : "https://orcid.org/yourorcidurl"
