@@ -6,153 +6,95 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+# ----------------------------
 # Basic Site Settings
+# ----------------------------
 locale                   : "en-US"
-site_theme               : "default" # 可选: "default", "air", "sunrise", "mint", "dirt", "contrast"
-title                    : "junjie Wu / Academic Homepage"
+site_theme               : "default" # options: default, air, sunrise, mint, dirt, contrast
+title                    : "Junjie Wu / Academic Homepage"
 title_separator          : "-"
-name                     : &name "junjie Wu"
-description              : &description "junjie Wu's academic portfolio — School of Computing, Southwest Jiaotong University"
-url                      : https://rmisgod.github.io/jjw.github.io/ # 改为你实际的 GitHub Pages 地址
-baseurl                  : "" # 如果是仓库名子路径再填，例如 "/academicpages"
+name                     : &name "Junjie Wu"
+description              : &description "Junjie Wu's academic portfolio — School of Computing, Southwest Jiaotong University"
+url                      : "https://rmisgod.github.io/jjw.github.io"
+baseurl                  : ""
 repository               : "jjw-swjtu/jjw-swjtu.github.io"
 
-# Site Author
+# ----------------------------
+# Site Author (Sidebar)
+# ----------------------------
 author:
   # Biographic information
-  avatar           : "jjw.png"   # 放在 /images/profile.png
+  avatar           : "images/jjw.png"   # ✅ 放在 /images/jjw.png
   name             : "Junjie Wu"
   pronouns         : "he/him"
-  bio              : "Postdoc  / researcher in Computer Science at Southwest Jiaotong University."
+  bio              : "Postdoctoral Researcher in Computer Science at Southwest Jiaotong University."
   location         : "Chengdu, China"
   employer         : "Southwest Jiaotong University"
-  uri              : https://rmisgod.github.io/jjw.github.io/
-  email            : "jjw@swjtu.edu.cn"   # ✅ 已替换为你的邮箱
+  uri              : "https://rmisgod.github.io/jjw.github.io/"
+  email            : "jjw@swjtu.edu.cn"
 
-  # Academic websites
-  academia         :
-  arxiv            :
+  # Academic profiles
   googlescholar    : "https://scholar.google.com/citations?user=luEfZkQAAAAJ&hl=zh-CN"
-  inspire-hep      :
-  impactstory      :
   orcid            : "https://orcid.org/yourorcidurl"
-  semantic         :
-  ssrn             :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     :
-  scopus           :
-  zotero           :
 
   # Repositories
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "jjw-swjtu"   # ✅ 建议改为你的 GitHub 用户名
-  kaggle           :
-  stackoverflow    :
+  github           : "jjw-swjtu"
 
   # Social media
-  artstation       :
   bluesky          : "bsky.app"
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
-  linkedin         : "junjie-wu-swjtu"   # 可替换为你的 LinkedIn
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  linkedin         : "junjie-wu-swjtu"
 
-# Publication Category
+# ----------------------------
+# Publication Categories
+# ----------------------------
 publication_category:
   books:
-    title: 'Books'
+    title: "Books"
   manuscripts:
-    title: 'Journal Articles'
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
+# ----------------------------
 # Site Settings
-teaser                   :
+# ----------------------------
 breadcrumbs              : true
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 talkmap_link             : false
+
 comments:
-  provider               : false   # 如需评论可改为 "discourse" 或 "disqus"
-  discourse:
-    server               :
-  disqus:
-    shortname            :
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601"
+  provider               : false
+
 atom_feed:
   hide                   : false
-  path                   :
 
-# SEO
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
-
-# Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
-og_description           :
+# ----------------------------
+# SEO & Social
+# ----------------------------
 social:
   type                   : "Person"
   name                   : "Junjie Wu"
   links:
-    - https://github.com/jjw-swjtu
-    - https://orcid.org/yourorcidurl
+    - "https://github.com/jjw-swjtu"
+    - "https://orcid.org/yourorcidurl"
 
+# ----------------------------
 # Analytics
+# ----------------------------
 analytics:
   provider               : false
-  google:
-    tracking_id          :
 
-# Reading Files
+# ----------------------------
+# File Handling
+# ----------------------------
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -180,20 +122,23 @@ exclude:
   - README
   - tmp
   - vendor
+
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
+# ----------------------------
+# Markdown
+# ----------------------------
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -204,7 +149,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# ----------------------------
 # Collections
+# ----------------------------
 collections:
   teaching:
     output: true
@@ -219,9 +166,11 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# ----------------------------
 # Defaults
+# ----------------------------
 defaults:
-  # _posts
+  # Posts
   - scope:
       path: ""
       type: posts
@@ -232,14 +181,16 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
+  # Pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+
+  # Teaching
   - scope:
       path: ""
       type: teaching
@@ -248,7 +199,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+
+  # Publications
   - scope:
       path: ""
       type: publications
@@ -257,7 +209,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+
+  # Portfolio
   - scope:
       path: ""
       type: portfolio
@@ -266,7 +219,8 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+
+  # Talks
   - scope:
       path: ""
       type: talks
@@ -275,16 +229,22 @@ defaults:
       author_profile: true
       share: true
 
-# Sass/SCSS
+# ----------------------------
+# Sass / CSS
+# ----------------------------
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-# Outputting
+# ----------------------------
+# Permalinks & Timezone
+# ----------------------------
 permalink: /:categories/:title/
-timezone: Asia/Shanghai   # ✅ 已改为中国时区
+timezone: Asia/Shanghai   # ✅ 中国时区
 
+# ----------------------------
 # Plugins
+# ----------------------------
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -301,15 +261,20 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
+# ----------------------------
 # Archives
+# ----------------------------
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
 
+# ----------------------------
 # HTML Compression
+# ----------------------------
 compress_html:
   clippings: all
   ignore:
