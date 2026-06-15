@@ -15,9 +15,9 @@ title                    : "Junjie Wu"
 title_separator          : "-"
 name                     : &name "Junjie Wu"
 description              : &description "Junjie Wu's academic portfolio, School of Computing, Southwest Jiaotong University"
-url                      : "https://rmisgod.github.io/jjw.github.io"
+url                      : "https://junjiewu001.github.io"
 baseurl                  : ""
-repository               : "jjw-swjtu/jjw-swjtu.github.io"
+repository               : "junjiewu001/junjiewu001.github.io"
 
 # ----------------------------
 # Site Author (Sidebar)
@@ -30,7 +30,7 @@ author:
   bio              : "Postdoctoral Researcher in Computer Science at Southwest Jiaotong University."
   location         : "Chengdu, China"
   employer         : "Southwest Jiaotong University"
-  uri              : "https://rmisgod.github.io/jjw.github.io/"
+  uri              : "https://junjiewu001.github.io/"
   email            : "jjw@swjtu.edu.cn"
 
   # Academic profiles
