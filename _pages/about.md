@@ -124,7 +124,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:_FxGoFyzp5QC" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 7.1</span><span class="meta-badge sci">SCI Q1</span><span class="tag-badge"># MEC</span><span class="tag-badge"># MAPC Wi-Fi</span><span class="tag-badge"># Hierarchical DRL</span></p>
+          <p class="badge-row"><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 7.1</span><span class="meta-badge sci">SCI Q1</span><span class="tag-badge"># MEC</span><span class="tag-badge"># MAPC Wi-Fi</span><span class="tag-badge"># Hierarchical DRL</span></p>
         </article>
 
         <article class="publication-card">
@@ -152,7 +152,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:eQOLeE2rZwMC" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 10.7</span><span class="tag-badge"># Multi-UAV</span><span class="tag-badge"># MADRL</span><span class="tag-badge"># A2G Networks</span></p>
+          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 10.7</span><span class="tag-badge"># Multi-UAV</span><span class="tag-badge"># MADRL</span><span class="tag-badge"># A2G Networks</span></p>
         </article>
 
         <article class="publication-card">
@@ -166,7 +166,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:YsMSGLbcyi4C" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 10.7</span><span class="tag-badge"># UAV Networks</span><span class="tag-badge"># DRL</span><span class="tag-badge"># Beamforming</span></p>
+          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 10.7</span><span class="tag-badge"># UAV Networks</span><span class="tag-badge"># DRL</span><span class="tag-badge"># Beamforming</span></p>
         </article>
 
         <article class="publication-card">
@@ -180,7 +180,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:zYLM7Y9cAGgC" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge ccf-c">CCF-C</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 8.9</span><span class="tag-badge"># Diffusion Models</span><span class="tag-badge"># Resource Allocation</span><span class="tag-badge"># DRL</span></p>
+          <p class="badge-row"><span class="meta-badge ccf-c">CCF-C</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 8.9</span><span class="tag-badge"># Diffusion Models</span><span class="tag-badge"># Resource Allocation</span><span class="tag-badge"># DRL</span></p>
         </article>
 
         <article class="publication-card">
@@ -194,7 +194,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:qjMakFHDy7sC" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge ccf-c">CCF-C</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 8.9</span><span class="tag-badge"># Wi-Fi Networks</span><span class="tag-badge"># Federated Learning</span><span class="tag-badge"># MADRL</span></p>
+          <p class="badge-row"><span class="meta-badge ccf-c">CCF-C</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 8.9</span><span class="tag-badge"># Wi-Fi Networks</span><span class="tag-badge"># Federated Learning</span><span class="tag-badge"># MADRL</span></p>
         </article>
 
         <article class="publication-card">
@@ -208,7 +208,7 @@ redirect_from:
           <p class="paper-links">
             <a href="https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=luEfZkQAAAAJ&citation_for_view=luEfZkQAAAAJ:u5HHmVD_uO8C" target="_blank" rel="noopener">[Scholar]</a>
           </p>
-          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge if">IF 10.7</span><span class="tag-badge"># Next-Generation Wi-Fi</span><span class="tag-badge"># Multi-Link</span><span class="tag-badge"># Reinforcement Learning</span></p>
+          <p class="badge-row"><span class="meta-badge ccf-b">CCF-B</span><span class="meta-badge q1">JCR-Q1</span><span class="meta-badge impact-factor">IF 10.7</span><span class="tag-badge"># Next-Generation Wi-Fi</span><span class="tag-badge"># Multi-Link</span><span class="tag-badge"># Reinforcement Learning</span></p>
         </article>
 
         <article class="publication-card">
